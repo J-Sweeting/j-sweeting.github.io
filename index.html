@@ -9,7 +9,6 @@
             background-color: #0a4b82;
             color: #ffffff;
             font-family: 'Franklin Gothic', sans-serif;
-            text-align: center;
             margin: 0;
             padding: 20px;
             min-height: 100vh;
@@ -17,16 +16,25 @@
             flex-direction: column;
         }
 
+        .content {
+            flex: 1;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
         h1, h2, h3, h4, h5, h6 {
             color: #ffff00;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            margin: 0 auto;
+            padding: 10px 0;
         }
 
         a {
             color: #ffff00;
-        }
-
-        .content {
-            flex: 1;
         }
 
         footer {
@@ -35,6 +43,7 @@
             background-color: rgba(0, 0, 0, 0.2);
             width: 100%;
             box-sizing: border-box;
+            text-align: center;
         }
     </style>
 </head>
