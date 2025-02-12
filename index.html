@@ -9,6 +9,12 @@
             background-color: #0a4b82;
             color: #ffffff;
             font-family: 'Franklin Gothic', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 20px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
         }
 
         h1, h2, h3, h4, h5, h6 {
@@ -18,13 +24,32 @@
         a {
             color: #ffff00;
         }
+
+        .content {
+            flex: 1;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.2);
+            width: 100%;
+            box-sizing: border-box;
+        }
     </style>
 </head>
 <body>
-    <h1>Welcome to My Website</h1>
-    <p>This is a sample paragraph to demonstrate the styling.</p>
-    <h2>About Me</h2>
-    <p>Add your content here.</p>
-    <a href="#">Sample Link</a>
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is a sample paragraph to demonstrate the styling.</p>
+        <h2>About Me</h2>
+        <p>Add your content here.</p>
+        <a href="#">Sample Link</a>
+    </div>
+    
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+        <p>Contact: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    </footer>
 </body>
 </html>
